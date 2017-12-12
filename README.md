@@ -34,12 +34,4 @@ Write code for routes in the routes folder
 Do not hard code any secret key or api key
 
 Keep those in the .env file -> check api/sample
-
-Add .env file to your .gitignore -> see line 88 in .gitignore
-    After run the following to update tracked files
-
-```
-    git rm -r --cached .
-    git add .
-    git commit -m "fixed untracked files"
-```
+    Create an .env in root directory and store secret keys there
